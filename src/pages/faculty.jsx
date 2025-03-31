@@ -9,7 +9,6 @@ const Faculty = () => {
                 <div className="min-h-screen">
                     <div className="">
                         <div className="mx-auto mb-6 mt-12 max-w-7xl">
-                            <hr className="w-10 mx-auto h-1 bg-primary"/>
                             <h1 className="text-5xl font-bold text-center flex justify-center mx-auto space-x-2">
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"

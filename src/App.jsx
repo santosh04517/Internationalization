@@ -22,14 +22,9 @@ function App() {
         <div className="mx-auto overflow-hidden min-h-screen scroll-smooth">
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/events" element={<Events />} />
-            <Route path="/mou" element={<Mou />} />
             <Route path="/scholarships" element={<Scholarship />} />
             <Route path="/internships" element={<Internship />} />
-            <Route path="/team" element={<Team />} />
-            <Route path="/testimonials" element={<Testimonials />} />
-            <Route path="/faq" element={<Faq />} />
-              <Route path="/faculty" element={<Faculty />} />
+            <Route path="/faculty" element={<Faculty />} />
           </Routes>
         </div>
         <Footer />

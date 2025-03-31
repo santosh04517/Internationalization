@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <div className="sticky top-2 z-50 px-[6px] md:px-0">
-      <div className="navbar max-w-7xl bg-opacity-50 backdrop-filter backdrop-blur-lg rounded-box bg-white md:mx-auto">
+      <div className="navbar max-w-7xl bg-opacity-20 backdrop-filter backdrop-blur-lg rounded-box bg-black md:mx-auto">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -55,24 +55,12 @@ const Header = () => {
               </li>
             </ul>
           </div>
-          <a href="/" className=" hidden lg:flex rounded-box ">
-            <img
-              src="https://jaipur.manipal.edu/img/manipal-university-jaipur-logo.svg"
-              alt="Muj"
-              className="w-[128px] lg:w-[192px]"
-            />
-          </a>
+          
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal md:text-base lg:text-lg  px-1">
             <li>
-              <Link to="/team">Team</Link>
-            </li>
-            <li>
-              <Link to="/mou">MoUs</Link>
-            </li>
-            <li>
-              <Link to="/events">Events</Link>
+              <Link to="/">Home</Link>
             </li>
             <li>
               <Link to="scholarships">Scholarships</Link>
@@ -83,31 +71,10 @@ const Header = () => {
             <li>
               <Link to="/faculty">Faculty Exchange</Link>
             </li>
-            <li>
-              <Link to="/testimonials">Testimonials</Link>
-            </li>
-            <li>
-              <Link to="/faq">FAQs</Link>
-            </li>
+
           </ul>
         </div>
         <div className="navbar-end">
-          <a
-              href="https://jaipur.manipal.edu/"
-            target="_blank"
-            className="btn border-primary text-white bg-primary fill-white hover:border-primary hover:bg-white hover:text-primary hover:fill-primary"
-          >
-            MUJ Website
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              height="24px"
-              width="24px"
-              viewBox="0 0 512 512"
-              className="icon"
-            >
-              <path d="M0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zM297 385c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l71-71L120 280c-13.3 0-24-10.7-24-24s10.7-24 24-24l214.1 0-71-71c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0L409 239c9.4 9.4 9.4 24.6 0 33.9L297 385z" />
-            </svg>
-          </a>
         </div>
       </div>
     </div>
