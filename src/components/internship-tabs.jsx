@@ -22,7 +22,7 @@ const InternshipTabs = () => {
             className={`px-4 py-2 text-lg font-medium w-full text-nowrap focus:outline-none ${
               activeTab === tab
                 ? "border-b-2 border-primary text-primary"
-                : "text-neutral"
+                : ""
             }`}
             onClick={() => setActiveTab(tab)}
           >
